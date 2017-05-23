@@ -1,0 +1,36 @@
+.fv-login{
+	position: fixed;
+	left:48%;
+	top:20%;
+	background:rgba(136,136,136,1) ;
+	width: 18em;
+	color:#fff;
+}
+.fv-login ul{
+	padding: 0;
+	width: 17em;
+	margin: 0 auto;
+}
+.fv-login li{
+	list-style: none;
+	margin:1em auto;
+}
+.fv-login label{
+	width:4em;
+	display: inline-block;
+}
+.fv-login input[type=button]{
+	border:1px solid #fff;
+	border-radius: 10px;
+}
+.fv-login input[type=button]:first-child{
+	width: 11.5em;
+	margin:0.5em 4em;
+}
+.fv-login input[type=button]:not(:first-child){
+	width:3.8em;
+	margin:0.5em 0 0.5em 4em;
+}
+.fv-login .wrong{
+	border:1px solid  rgba(245,41,41,0.5);
+}

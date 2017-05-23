@@ -1,0 +1,75 @@
+.fv-header-box{
+	z-index: 100;
+	position: fixed;
+	/*margin-top: 20px;*/
+	width: 100%;
+	background: url('../../image/vedio-img/fv-header-box-bg.jpg') repeat-x;
+}
+.fv-header-logo,.fv-header-search,.fv-header.utility{
+	float: left;
+}
+.fv-header-logo{
+	margin-left: 5%;
+	font-size: 30px;
+	font-family: "PingFang SC","Lantinghei SC","Microsoft Yahei","Hiragino Sans GB","Microsoft Sans Serif","WenQuanYi Micro Hei",sans;
+}
+.fv-header-logo a{
+	text-shadow: 3px 3px 0px #D1CDCD;
+}
+.fv-header-search{
+	margin-top: 1em;
+	position: absolute;
+	width: 30%;
+	left:30%;
+}
+.fv-header-search input[type=text]{
+	border-radius: 10px;
+	border:1px solid #fff;
+	height:2.5em;
+	width: 100%;
+	outline: none;
+}
+.fv-header-search span{
+	display: inline-block;
+	background: url('../../image/vedio-img/fv-utility-search.png') no-repeat;
+	position: absolute;
+	right:0.5em;
+	top:0.3em;
+	height:2.5em;
+	width: 2em;
+}
+.fv-header-utility{
+	position: relative;
+	float: right;
+	margin-top: 1em;
+	margin-right: 4em;
+}
+.fv-header-utility>div{
+	cursor: pointer;
+	float: left;
+	width: 3em;
+	height: 3em;
+	margin-left: 3em;
+}
+.fv-utility-history{
+	background: url('../../image/vedio-img/fv-utility-history.png') no-repeat;
+}
+.fv-utility-upload{
+	background:url('../../image/vedio-img/fv-utility-upload.png') no-repeat;
+}
+.fv-utility-login{
+	width: 6em !important;
+	height: 3em;
+}
+.fv-login-icon{
+	display: inline-block;
+	width:32px;
+	height: 32px;
+	background:url('../../image/vedio-img/fv-utility-login.png');
+}
+.fv-login-text{
+	position: absolute;
+	font-size: 16px;
+	font-family: 'Î¢ÈíÑÅºÚ';
+	top:10%;
+}

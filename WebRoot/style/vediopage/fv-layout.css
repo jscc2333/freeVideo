@@ -1,0 +1,68 @@
+.fv-main-layout{
+	margin: 4em auto 0;
+	width: 60%;
+	padding: 2em;
+}
+.fv-layout-vedio{
+	width: 100%;
+}
+.fv-vedio-base h1{
+	font-size: 20px;
+	font-weight: normal;
+	float: left;
+}
+.fv-base-viewTimes{
+	position: relative;
+	float: right;
+}
+.fv-base-viewTimes span{
+	height: 32px;
+	width:32px;
+	display: inline-block;
+	background: url('../../image/vedio-img/fv-vedio-viewtimes.png');
+	float: left;
+}
+.fv-base-viewTimes p{
+	font-size: 16px;
+	position: relative;
+	top:0.3em;
+	margin-left: 1em;
+	float: left;
+}
+
+.fv-layout-comment{
+	margin-top:2em;
+	position: relative;
+	color:#C5C0C0;
+}
+.fv-publish-title a{
+	position: absolute;
+	right: 0;
+	font-size:12px;
+}
+.fv-publish-title strong{
+	font-size: 20px;
+	color:#000;
+}
+.fv-publish-content{
+	margin-top: 1em;
+}
+.fv-publish-content textarea{
+	font-size:16px;
+	width: 100%;
+	height: 6em;
+}
+.fv-comment-all{
+	margin-top: 1em;
+}
+.fv-comment-all h1{
+	margin-bottom: 0.5em;
+	font-size: 20px;
+	color:#000;
+	font-weight: noraml;
+}
+.fv-comment-all li{
+	height: 5em;
+	border-top: 1px solid #C5C0C0;
+	width: 100%;
+}

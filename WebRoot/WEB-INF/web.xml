@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>login</servlet-name>
+    <servlet-class>com.servlet.login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HistoryLoad</servlet-name>
+    <servlet-class>com.servlet.HistoryLoad</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VideoLoad</servlet-name>
+    <servlet-class>com.servlet.VideoLoad</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VideoView</servlet-name>
+    <servlet-class>com.servlet.VideoView</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VideoComment</servlet-name>
+    <servlet-class>com.servlet.VideoComment</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommentRefresh</servlet-name>
+    <servlet-class>com.servlet.CommentRefresh</servlet-class>
+  </servlet>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VideoSearch</servlet-name>
+    <servlet-class>com.servlet.VideoSearch</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/servlet/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HistoryLoad</servlet-name>
+    <url-pattern>/servlet/HistoryLoad</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VideoLoad</servlet-name>
+    <url-pattern>/servlet/VideoLoad</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VideoView</servlet-name>
+    <url-pattern>/servlet/VideoView</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VideoComment</servlet-name>
+    <url-pattern>/servlet/VideoComment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentRefresh</servlet-name>
+    <url-pattern>/servlet/CommentRefresh</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>VideoSearch</servlet-name>
+    <url-pattern>/servlet/VideoSearch</url-pattern>
+  </servlet-mapping>
+</web-app>

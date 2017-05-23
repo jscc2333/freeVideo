@@ -1,0 +1,189 @@
+
+/*container*/
+.fv-container{
+	position: relative;
+	width: 96%;
+	margin:4em auto 0;
+}
+.fv-container-leftnav{
+	background-color:rgba(248, 251, 247,0.3);
+	position: fixed;
+	width: 10%;
+	border:1px solid #fff;
+	border-radius: 10px;
+	background: url('../../image/container-img/fv-nav-bg.jpg');
+}
+.fv-leftnav-nav>div{
+	padding-left: 1em;
+	margin-bottom: 2.0em;
+}
+.fv-leftnav-nav>div>span{
+	color:#ADACAC;
+	font-size: 18px;
+	text-shadow: 2px 2px 0 #EAE3E3;
+	margin-bottom: 1em;
+	display: inline-block;
+}
+
+.fv-leftnav-nav li{
+	height: 2em;
+	font-size: 16px;
+	width: 90%;
+	padding-left: 3%;
+	margin:0.5em auto;
+	line-height: 2em;
+	border-bottom: 2px solid rgba(70,64,64,0.5);
+}
+
+.fv-leftnav-nav li>span{
+	position: relative;
+	top:0.3em;
+	width: 1.5em;
+	height: 1.5em;
+	background-size: cover;
+	display: inline-block;
+}
+.fv-leftnav-nav li:nth-child(1)>span{background-image: url('../../image/container-img/fv-nav-hot.png');}
+.fv-leftnav-nav li:nth-child(2)>span{background-image: url('../../image/container-img/fv-nav-music.png');}
+.fv-leftnav-nav li:nth-child(3)>span{background-image: url('../../image/container-img/fv-nav-entair.png');}
+.fv-leftnav-nav li:nth-child(4)>span{background-image: url('../../image/container-img/fv-nav-game.png');}
+.fv-leftnav-nav li:nth-child(5)>span{background-image: url('../../image/container-img/fv-nav-movie.png');}
+.fv-leftnav-nav li:nth-child(6)>span{background-image: url('../../image/container-img/fv-nav-news.png');}
+.fv-leftnav-nav li:nth-child(7)>span{background-image: url('../../image/container-img/fv-nav-comic.png');}
+.fv-leftnav-nav li>a{
+	color:#000;
+}
+
+.fv-container-content{
+	width: 89%;
+	margin-left: 11%;
+	height: 1000px;
+}
+.fv-content-banner{
+	position: relative;
+	float: left;
+	width: 48%;
+	height: 35em;
+	margin-right: 1.9%;
+}
+.fv-content-hot{
+	float: left;
+	width: 48%;
+	/*margin-left: 1.9%;*/
+	height: 30em;
+}
+.fv-content-banner li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.fv-content-banner a{
+	display: block;
+}
+.fv-hot-left,.fv-hot-right{
+	float: left;
+	padding: 1em;
+}
+.fv-hot-left{
+	width: 30%;
+	height:10em;
+	margin-right: 5%;
+}
+.fv-hot-right{
+	width: 57%;
+}
+.fv-hot-right a{
+	color:#0099ff;
+	font-size: 16px;
+}
+.fv-hot-right a:hover{
+	text-decoration: underline;
+}
+.fv-hot-right>p{
+	height: 3em;
+	font-size: 15px;
+	color:#645F5F;
+}
+.fv-hot-right .fv-vedio-message{
+	margin-top: 1em;
+}
+.fv-vedio-message>span{
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	background-image: url('../../image/container-img/video.png');
+	background-size: cover;
+}
+.fv-vedio-message>span,.fv-vedio-viewTimes,.fv-vedio-uploadtime{
+	margin-right: 1.5em;
+	float: left;
+}
+.fv-vedio-viewTimes b{
+	margin-left:0.5em;
+}
+.fv-content-video>div{
+	width: 48%;
+	float: left;
+	margin:2% 0 1% 0;
+}
+.fv-content-video>div:nth-child(2n+1){
+	margin-right: 2.8%
+}
+.fv-vedio-head{
+	margin-bottom: 0.5em;
+	font-size:17px;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+.fv-vedio-detail{
+	width: 49%;
+	float: left;
+}
+.fv-vedio-detail:nth-child(2n+1){
+	margin-right: 2%;
+}
+.fv-vedio-detail>div{
+	padding: 1em 1.5em 1em 1.5em;
+}
+.fv-vedio-detail>div>a{
+	display:inline-block;
+	width:85%;
+	margin:0 7.5%;
+	border-radius:10px;
+}
+.fv-vedio-detail img{
+	border-radius:10px;
+	margin:0 auto;
+	width: 100%;
+	height: 15em;
+}
+.fv-vedio-detail p{
+	height: 2em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;	
+	-webkit-line-clamp: 2;
+	margin:1% auto;
+}
+.fv-vedio-detail p a{
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	color:#0099ff;
+	font-size: 16px;
+}
+.fv-hot-left a img,.fv-vedio-detail a img{
+ 	transition:All 0.5s ease-in-out;
+    -webkit-transition:All 0.5s ease-in-out;
+    -moz-transition:All 0.5s ease-in-out;
+    -o-transition:All 0.5s ease-in-out;
+
+}
+.fv-hot-left a img:hover,.fv-vedio-detail a img:hover{
+	-webkit-transform:scale(1.2);
+	-o-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	transform:scale(1.2);
+}
